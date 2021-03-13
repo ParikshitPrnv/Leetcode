@@ -26,4 +26,5 @@ num                 -3   2  -3   4   2
 prefix sum          -3  -1  -4   0   2
 min prefix sum      -3  -3  -4  -4  -4
 min start value      4   4   5   5   5
+https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/
 */

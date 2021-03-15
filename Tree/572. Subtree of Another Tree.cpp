@@ -32,6 +32,6 @@ public:
             if(isidentical(s,t))
                 return true;
         }
-       return isSubtree(s->left,t)||isSubtree(s->right,t)
+       return isSubtree(s->left,t)||isSubtree(s->right,t);
     }
 };

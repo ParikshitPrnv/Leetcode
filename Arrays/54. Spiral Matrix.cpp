@@ -8,7 +8,7 @@ public:
         int m=matrix[0].size();
         int rowbegin=0,rowend=n-1;
         int colbegin=0,colend=m-1;
-        while(rowbegin<=rowend && colbegin<=colend)
+        while(ans.size()<n*m)
         {
             for(int col=colbegin;col<=colend;col++)
                 ans.push_back(matrix[rowbegin][col]);
